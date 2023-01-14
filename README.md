@@ -1,4 +1,4 @@
-# Basic API for assignment, easy to deploy
+# Basic API boilerplate with NodeJs, TS, express, mongo, docker
 ___
 
 ### If you want to build your api with docker
