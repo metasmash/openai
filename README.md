@@ -1,4 +1,4 @@
-# Basic API boilerplate with NodeJs, TS, express, mongo, docker
+# Basic API boilerplate
 ___
 
 ### If you want to build your api with docker
