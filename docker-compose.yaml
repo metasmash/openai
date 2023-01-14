@@ -31,3 +31,23 @@ services:
     volumes:
       - ./volumes/db:/data/db
     restart: "on-failure"
+
+# Uncomment the section below and change example-api by your docker image tag
+# You need to build your docker image first to make it working and test if everything work for deployment
+
+#  api-rest:
+#    container_name: api-rest
+#    image: example-api
+#    depends_on:
+#      - mongodb
+#    environment:
+#      - DB_NAME=$DB_NAME
+#      - DB_USERNAME=$DB_USERNAME
+#      - DB_PASSWORD=$DB_PASSWORD
+#      - API_PORT=8080
+#      - DB_PORT=27017
+#      - ENVIRONMENT=$ENVIRONMENT
+#      - MONGO_HOST=mongodb
+#    ports:
+#      - '8080:8080'
+#    restart: "on-failure"
