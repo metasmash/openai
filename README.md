@@ -13,7 +13,7 @@ Start all your containers:
 
 Install dependencies:
 
-``npm i``
+``npm install``
 
 Start your api:
 
